@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    background: red;
+    color: black;
+
+}
+p {
+    font-size: large;
+    background: antiquewhite;
+}
+b {
+    font-size: larger;
+}
+ol {
+    font-size: larger;
+    color: blue;
+    width: 300px;
+    border:  4px solid blue;
+
+}
+img{
+    border:3px red solid;
+}

@@ -1,0 +1,82 @@
+.father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100px;
+}
+.child{
+    color: white;
+    font-size: larger;
+}
+
+
+b {
+    font-size: larger;
+}
+ol {
+    font-size: larger;
+    color: black;
+    width: 300px;
+    border:  4px solid black;
+}
+.school{
+    font-size: larger;
+    background: white;
+    width: 1500px;
+    margin: 30px;
+}
+.imgschool{
+    float: right;
+    height: 700px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+h2{
+    margin: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.start{
+    font-size: larger;
+    background: white;
+    width: 1500px;
+    margin: 30px;
+
+}
+.early{
+    font-size: larger;
+    background: white;
+    margin: 30px;
+    height: 300px;
+}
+.university{
+    font-size: larger;
+    background: white;
+    width: 1500px;
+    margin: 30px;
+
+}
+.imgearly{
+    float: left;
+    width: 300px;
+    padding-right: 20px;
+    border-radius: 25px
+}
+.navigation {
+    font-size: larger;
+    width: 1500px;
+    margin: 30px;
+}
+.imgstart{
+    float: left;
+    padding-right: 20px;
+    border-radius: 25px
+}
+.imgun{
+    float: left;
+    width: 700px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
