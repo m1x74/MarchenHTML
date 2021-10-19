@@ -1,0 +1,66 @@
+.all{
+    background: silver;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.widgets{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+
+}
+#allwidg{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 250px;
+}
+.ww{
+    display: flex;
+    width: 1000px;
+    column-gap: 50px;
+
+
+
+}
+#big{
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+
+
+}
+#bigger{background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+#huge{
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+
+
+}
+.contact{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+}
