@@ -1,0 +1,121 @@
+.all{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    background: silver;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.alltoall{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background: silver;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1%;
+    outline: solid black 3px;
+}
+.blocka{
+    background: red;
+    width: 40%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+
+
+
+}
+.conteyner1{
+    height: 30%;
+    width: 40%;
+    column-gap: 2%;
+    display: flex;
+
+
+
+}
+
+
+
+.conteyner3{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2%;
+
+}
+.blockb{
+    background: purple;
+    width: 32%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+.blockc{
+    background: purple;
+    width: 32%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}.blockd{
+     background: purple;
+     width: 32%;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     border-radius: 10px;
+ }
+.blocke {
+    background: purple;
+    width: 32%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+.blockf {
+    background: purple;
+    width: 32%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;}
+.blockh {
+    background: gold;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+.blockg {
+    background: purple;
+    width: 32%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+.bubu {display: flex;
+    width: 100%;
+    height: 100%;
+    column-gap: 2%;}
+
+.bebe{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    column-gap: 2%;
+
+}
