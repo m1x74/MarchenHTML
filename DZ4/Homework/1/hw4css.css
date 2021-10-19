@@ -10,18 +10,19 @@
 }
 .a{
     background: orange;
-    width: 1350px;
+    width: 70%;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
     align-self: center;
+    margin-top: 5%;
 }
 .b{
     background: red;
     height: 500px;
-    width: 1000px;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,7 @@
 .c {
     background: purple;
     height: 500px;
-    width: 320px;
+    width: 19%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +43,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    column-gap: 20px;
+    column-gap: 1%;
+    margin-bottom: 5%;
+
 
 
 }
