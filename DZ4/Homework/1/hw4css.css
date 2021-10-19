@@ -1,0 +1,48 @@
+.wrap{
+    background: silver;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+
+
+}
+.a{
+    background: orange;
+    width: 1350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    align-self: center;
+}
+.b{
+    background: red;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.c {
+    background: purple;
+    height: 500px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    column-gap: 20px;
+
+
+}
