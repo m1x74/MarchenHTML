@@ -1,0 +1,74 @@
+.all{
+    display: flex;
+
+    background: silver;
+    width: 500px;
+    height: 700px;
+    flex-direction: column;
+    column-gap: 5%;
+    row-gap: 5%;
+}
+.up{
+    height: 47.5%;
+    width: 100%;
+    display: flex;
+    column-gap: 5%;
+
+}
+.home{
+    height: 100%;
+    width: 47.5%;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.about{
+    height: 100%;
+    width: 47.5%;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.mid{
+    background: cornflowerblue;
+    width: 100%;
+    height: 21.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.bottom{
+    display: flex;
+    height: 21.25%;
+    column-gap: 5%;
+}
+.shishka{
+    background: cornflowerblue;
+    width: 30%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}.bbq{
+    background: cornflowerblue;
+    width: 30%;
+    height:100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: larger;
+}.summer{
+    background: cornflowerblue;
+    width: 30%;
+    height:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: larger;
+}
