@@ -1,0 +1,101 @@
+@media screen and (max-width: 480px) {
+    .header__text_menu{
+        display: none;
+    }
+
+
+    .header__logo img{
+        width: 50px;
+    }
+    .header__text_contacts{
+        display: none;
+    }
+    .wrapper{
+        max-width: 320px;
+        padding:10px;
+    }
+    .header__logo{
+        padding: 0;
+    }
+    .nav__btn_mob{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .main_welcome{
+        display: none;
+
+    }
+    .main_res{
+        display: none;
+    }
+    .main_house p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        margin-left: 0}
+    .head__main{
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 170px;
+        max-width: 320px;
+
+    }
+    .main_button{
+    display: none}
+
+    .main_house p::before,
+    .main_house p::after{
+        display: none;}
+    .bottom__main{
+        display: flex;flex-direction: column;
+        padding-left: 25px;
+        column-gap: 31px;
+        position: absolute;
+        top: 693px;}
+    .main_button__mob{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+        color: #FFFFFF;
+        width: 137px;
+        height: 47px;
+        background: #FF7400;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .main_welcome__mob{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+        color: #D67E35;
+        display: flex;
+    }
+    .main_res__mob {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        display: flex;
+        color: #D67E35;
+    }
+
+
+
+
+
+
+
+
+}
