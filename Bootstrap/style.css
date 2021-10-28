@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;}
+.head{
+    background: url("image/bg.png")no-repeat center/cover;
+    height: 100vh;
+
+}
+
+.header__logo{
+    padding-top: 50px;
+    padding-left: 145px;
+}
+.header__text{
+    padding-top:54px;
+    padding-right: 150px;
+    column-gap: 20px;
+}
+.nav_item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+.navi{
+    column-gap: 30px ;
+}
+.nav_item img{
+    width: 20px;
+}
+.header__text_left{
+    border-right: solid white 2px;
+}
+.number{
+    column-gap: 10px;
+}
+.header_contacts .p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.nav__btn_mob div{
+    width: 30px;
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+
+}
+
+
+.call{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 154px;
+}
+.header__text_right{
+    column-gap: 50px;
+}
+.header_button{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 157px;
+    height: 47px;
+    cursor: pointer;
+    background: #FF7400;
+}
+.bottom{
+    height: 100vh;
+    width: 100%;
+    background: #E5E5E5;}
+.bottom_main1{
+    width: 349px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    row-gap: 10px;
+
+}
+.bottom__main{
+    padding-left: 166px;
+    column-gap: 31px;
+    position: absolute;
+    top: 693px;
+
+}
+
+.main_res__mob{
+    display: none;}
+
+.main_button__mob{
+    display: none;
+}
+.main_welcome__mob{
+    display: none;
+}
+.main_house p::before,
+.main_house p::after{
+    display: block;
+    content:"";
+    width: 40px;
+    border: solid white 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.head__main{
+    margin-top: 120px;
+    margin-left: 100px;
+
+}
+.main_house p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 110px;
+    height: 1px;
+}
+.main_welcome h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+    margin-left: 20px;
+}
+.main_res h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;}
+.main_button{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+    width: 137px;
+    height: 47px;
+    background: #FF7400;
+    margin-left: 180px;
+    margin-top: 30px;}
+.main_1_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+
+}
+.word{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #bd9160;
+}
+bottom__main_1{
+
+}
+.main_1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+
