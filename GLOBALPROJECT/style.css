@@ -1,0 +1,112 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;}
+.header{
+    width: 100%;
+    display: flex;
+    background: #0F2438;
+    height: 36px;
+    justify-content: space-between;
+}
+.header__nav_left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header__nav_left img{
+    margin-left: 50px;
+
+}
+.header__nav_left{
+    width: 50%;
+}
+.town{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 7px;
+}
+.info,.coop{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+   display: flex;
+
+}
+.arrow img{
+    margin-left:5px
+}
+.info{
+    margin-left: 50px;
+}
+.header__nav_right a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.header__nav_right{
+    width: 50%;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
