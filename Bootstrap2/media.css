@@ -1,0 +1,109 @@
+@media screen and (max-width: 480px) {
+.header{
+ justify-content: start;
+}
+ .wrapper{
+  max-width: 480px;
+ }
+ .container-fluid{
+  margin-left: -90px;
+  width: 400px;
+  justify-content: space-between;
+ }
+
+
+ .footer__head, .footer, .middle,.footer__down{
+  display: flex;
+  flex-direction: column;
+ }
+.footer__down_right{
+ width: 480px;
+ padding-left: 16px;
+
+
+}
+.footer__down_right h2{
+ margin-top: 39px;
+}
+ .middle__left{
+  width: 480px;
+  margin-left: 0px;
+  margin-top: 55px;
+
+ }
+ .middle__left h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 1;
+  /* or 53% */
+  width: 350px;
+  margin-left: 45px;
+
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #1652AC;
+ }
+ .middle__left_text2{
+  display: none;
+ }
+ .middle__left_text2mob{
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: -0.004em;
+  /* Elsässer Header Paragraph Text */
+  margin-left: 100px;
+
+  color: #020303;
+ }
+.middle__right img{
+ width: 400px;
+ margin-left: 40px;
+}
+.footer__head_left img{
+ width: 400px;
+ margin-left: 40px;
+ margin-top: 30px;
+}
+.footer__head_right h2{
+ margin-left: -10px;
+ margin-top: 20px;
+ width: 400px;
+}
+ .footer__head_right{
+  width: 350px;
+  margin-left: 80px;
+
+
+ }
+
+.footer__down_left img{
+ width: 480px;
+ margin-top: 20px;
+}
+.text{
+ margin-left: 0px;
+}
+ .footer__down_right h2{
+  margin-left: 0px;
+ }
+ .header__logo img{
+  margin-left: 0;
+ }
+ .middle__left{
+  width: 450px;
+ }
+
+
+
+
+}
+
+
+
+
+
