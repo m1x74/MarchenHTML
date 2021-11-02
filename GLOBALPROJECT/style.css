@@ -723,7 +723,7 @@ column-gap: 6px;
     margin-top: 20px;
     column-gap: 20px;
 }
-.foot button{
+.cart1{
     width: 160px;
     height: 49px;
     background: #005BB9;
@@ -736,6 +736,7 @@ column-gap: 6px;
     align-items: center;
     color: #FFFFFF;
     column-gap: 8px;
+    justify-content: start;
 }
 .action{
     position: absolute;
@@ -791,4 +792,8 @@ margin-left: 867px;
     line-height: 19px;
 
     color: #005BB9;
+}
+.love,.dynamics{
+    background: none;
+    border: none;
 }
