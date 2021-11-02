@@ -16,15 +16,19 @@
     <title>Интернет магазин автозапчастей AVT-ZAP</title>
 </head>
 <body>
-<div class="all">
-    <div class="header d-flex">
+<div class="all wrapper">
+    <div class="header d-flex wrapper">
         <div class="header__nav_left d-flex">
-            <img src="img/placeholder%201.png" alt="placeholder">
-            <div class="town">Ваш город: <u>Москва</u></div>
-            <div class="info"><p>Информация</p> <span class="arrow"><img src="img/Chevron%20Right%201.png" alt="Arrow"></span>
+            <div class="yourtown d-flex align-items-center"><img src="img/placeholder%201.png" alt="placeholder">
+                <div class="town">Ваш город:
+                    <button><u>Москва</u></button>
+                </div>
             </div>
-            <div class="info"><p>Сотрудничество</p> <span class="arrow"><img src="img/Chevron%20Right%201.png" alt="Arrow"></span>
-            </div>
+            <button class="info buttons">Информация <span class="arrow"><img src="img/Chevron%20Right%201.png"
+                                                                     alt="Arrow"></span>
+            </button>
+            <button class="info buttons">Сотрудничество <span class="arrow"><img src="img/Chevron%20Right%201.png" alt="Arrow"></span>
+            </button>
         </div>
         <div class="header__nav_right d-flex">
             <nav><a href="#">Доставка</a></nav>
@@ -37,6 +41,64 @@
 
 
         </div>
+    </div>
+    <div class="headerinfo justify-content-center align-items-center">
+        <div class="headerinfo__head d-flex">
+            <div class="headerinfo__head_logo d-flex">
+                <img src="img/Mask%20Group.png" alt="Logo">
+                <div class="logotext">
+                    <h2>AVT-ZAP</h2>
+                    <p>Интернет-магазин запчастей
+                        <br>для АКПП</p>
+                </div>
+            </div>
+            <div class="headerinfo__head_time d-flex align-items-center justify-content-center">
+                <img src="img/time%20(1)%201.png" alt="time">
+                <p>Мы работаем: будни - 9:00-21:00
+                    <br>сб. - 10:00-15:00</p>
+            </div>
+            <button class="headerinfo__head_geo d-flex align-items-center justify-content-center">
+                <img src="img/placeholder%202.png" alt="geo">
+                <a href="#">Невский пр-т, д. 45</a>
+            </button>
+            <button class="headerinfo__head_whatsapp d-flex align-items-center justify-content-center">
+                <img src="img/whatsapp%20(2)%201.png" alt="whatsapp">
+                <a href="#">Напишите нам в WhatsApp</a>
+            </button>
+            <div class="headerinfo__head_number">
+                <h2>+7 383 291 92 86</h2>
+                <a href="#">форма обратной связи</a>
+            </div>
+        </div>
+        <div class="headerinfo__bottom d-flex d-flex align-items-center">
+            <button class="button_catalog d-flex justify-content-center align-items-center">
+                <img src="img/Group%20138.png" alt="-">
+                Каталог
+            </button>
+            <div class="form-group">
+                <label for="exampleInputEmail1"></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                       placeholder="Поиск по наименованию или артикулу">
+                <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+            <button class="button_search d-flex justify-content-center align-items-center">
+                Найти
+            </button>
+            <div class="enter buttons d-flex justify-content-center align-items-center">
+                <img src="img/user%20(1)%201.png" alt="">
+                <button class="button_enter buttons">Войти</button>
+            </div>
+            <div class="favorite buttons d-flex justify-content-center align-items-center">
+                <img src="img/Vector.png" alt="Favorite">
+                <button class="button_favorite buttons">Избранное</button>
+            </div>
+            <div class="cart buttons d-flex justify-content-center align-items-center">
+                <img src="img/cart%201.png" alt="cart">
+                <button class="button_cart buttons">В корзине
+                    <br>нет товаров</button>
+            </div>
+        </div>
+
     </div>
 </div>
 
