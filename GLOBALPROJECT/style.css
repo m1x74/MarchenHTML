@@ -1,4 +1,3 @@
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,6 +58,9 @@ table {
     outline: none;
     border: 0;
     background: transparent;
+}
+.info1{
+    display: none;
 }
 
 .wrapper {
@@ -233,6 +235,15 @@ table {
 
 
 }
+.numberwhatsmob{
+    display: none;
+}
+.headerinfo__head_whatsap img{
+   width: 5px;
+}
+.numberwhatsmob{
+    display: none;
+}
 
 .headerinfo__head_whatsapp a {
     text-decoration: none;
@@ -284,6 +295,9 @@ table {
     /* identical to box height */
     color: #FFFFFF;
 }
+.button_catalogmob{
+    display: none;
+}
 
 .form-group {
     width: 549px;
@@ -310,6 +324,9 @@ table {
     line-height: 17px;
     color: #FFFFFF;
     margin-left: 2px;
+}
+.button_searchmob{
+    display: none;
 }
 
 .button_search:hover {
@@ -486,7 +503,7 @@ table {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    row-gap: 18px;
+    row-gap:10px;
 }
 
 .stock {
@@ -557,6 +574,7 @@ table {
 
 .stock_bottom {
     column-gap: 5px;
+
 }
 
 .stock_bottom button {
@@ -690,6 +708,10 @@ table {
 .carousele__block_right2 {
     position: absolute;
     right: -5px;
+}
+.mobdown{
+    display: none;
+
 }
 
 .main__head {
@@ -1087,7 +1109,3 @@ table {
     margin-top: 80px;
 
 }
-
-
-
-
