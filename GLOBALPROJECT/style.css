@@ -30,6 +30,9 @@ body {
 
 
 }
+.infoipad{
+    display: none;
+}
 
 .marginleft {
     margin-left: 283px;
@@ -310,7 +313,7 @@ table {
     padding: 0.865rem 0.75rem;
 }
 
-.button_search {
+.button_search,.button_search1 {
     width: 101px;
     height: 53px;
     border: none;
@@ -377,6 +380,9 @@ table {
     width: 1008px;
     height: 390px;
 
+}
+.main__mid_blocksipad{
+    display: none;
 }
 
 .carousel {
@@ -846,7 +852,15 @@ table {
     align-items: center;
     color: #FFFFFF;
     column-gap: 8px;
-    justify-content: start;
+    justify-content: center;
+}
+.review48 a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+    text-decoration: none;
 }
 
 .action {
@@ -939,7 +953,7 @@ table {
     margin-top: 14px;
 }
 
-.november img {
+.november img,.november1 img {
     margin-top: 14px;
     position: absolute;
 
@@ -958,7 +972,7 @@ table {
     color: #FFFFFF;
 }
 
-.november h3 {
+.november h3,.november1 h3 {
     margin-top: 15px;
     font-style: normal;
     font-weight: normal;
@@ -969,7 +983,7 @@ table {
 
 }
 
-.november p {
+.november p,.november1 p {
     width: 284px;
     height: 140px;
 
@@ -985,6 +999,9 @@ table {
 .content__news {
     column-gap: 80px;
 }
+.onlineipad{
+    display: none;
+}
 
 .bottom {
     height: 458px;
@@ -998,7 +1015,7 @@ table {
 
 }
 
-.bottom__cat h2, .bottom__inf h2, .bottom__rub h2, .contacts__left h2, .contacts__right, .bottom__online h2, .bottom__mailing,.bottom__down {
+.bottom__cat h2, .bottom__inf h2, .bottom__rub h2, .contacts__left h2, .contacts__right, .bottom__online h2,.bottom__online1 h2, .bottom__mailing, .bottom__mailing1,.bottom__down {
     margin-top: 36px;
     font-style: normal;
     font-weight: 500;
@@ -1007,7 +1024,7 @@ table {
     color: #868DAC;
 }
 
-.bottom__cat button, .bottom__inf button, .bottom__rub button, .contacts__left p, .contacts__right a, .bottom__online a {
+.bottom__cat button, .bottom__inf button, .bottom__rub button, .contacts__left p, .contacts__right a, .bottom__online a, .bottom__online1 a {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1055,15 +1072,15 @@ table {
     flex-direction: column;
 }
 
-.bottom__online {
+.bottom__online,.bottom__online1{
     column-gap: 23px;
 }
 
-.bottom__online h2 {
+.bottom__online h2,.bottom__online1 h2 {
     margin-top: 0;
 
 }
-.bottom__mailing{
+.bottom__mailing, .bottom__mailing1{
     margin: 0;
 }
 .form-group1{
