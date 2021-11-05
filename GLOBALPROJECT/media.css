@@ -2685,7 +2685,7 @@ display: flex;
     }
     .headerinfo__head_geo {
         position: absolute;
-        top: 11%;
+        top: 14%;
         left: 15.5%;
 
 
@@ -3271,6 +3271,9 @@ display: flex;
     .mobblock2{
         row-gap: 7px;
     }
+    .carousel__radiator,.main__mid,.bottom{
+        overflow-x: hidden;
+    }
     .mobblock1,.mobblock2,.mobblock3,.mobblock4{
         font-style: normal;
         font-weight: normal;
@@ -3496,6 +3499,8 @@ display: flex;
         justify-content: center;
         align-items: center;
     }
+    .slider {
+        column-gap: 20px;}
 
     .price h4 {
         font-style: normal;
